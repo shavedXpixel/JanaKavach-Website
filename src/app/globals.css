@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Marcellus&family=Noto+Sans+Oriya:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #F7F1E5;
+    --color-ivory-light: #FDFBF7;
+    --color-ivory-card: #FAF6EF;
+    --color-ivory-border: #E8DFC9;
+    --color-terracotta: #8B3028;
+    --color-terracotta-dark: #6E221B;
+    --color-terracotta-light: #A8443B;
+    --color-deep-teal: #17655B;
+    --color-deep-teal-dark: #0F4941;
+    --color-deep-teal-light: #238578;
+    --color-temple-gold: #E3A84B;
+    --color-temple-gold-dark: #C6892E;
+    --color-temple-gold-light: #F1BF6C;
+    --color-charcoal: #1E2522;
+    --color-charcoal-muted: #4A5568;
+    --color-charcoal-light: #718096;
+    --color-border: #E2D9CC;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-ivory);
+    color: var(--color-charcoal);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Nirmala UI", Roboto, sans-serif;
+  }
+
+  /* Full Odia font fallback stack ensuring clean rendering everywhere */
+  :lang(or), .font-odia, [lang="or"] {
+    font-family: 'Noto Sans Oriya', 'Nirmala UI', 'Kalinga', 'Oriya Sangam MN', system-ui, sans-serif !important;
+    line-height: 1.75;
+    word-break: normal;
+  }
+
+  ::selection {
+    background-color: var(--color-terracotta);
+    color: var(--color-ivory);
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-ivory);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D8CAB2;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-terracotta);
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Cultural decorative border helper (Ikat/Sambalpuri inspiration) */
+.odisha-border-strip {
+  background: repeating-linear-gradient(
+    90deg,
+    #8B3028 0px,
+    #8B3028 16px,
+    #E3A84B 16px,
+    #E3A84B 24px,
+    #17655B 24px,
+    #17655B 40px,
+    #E3A84B 40px,
+    #E3A84B 48px
+  );
+  height: 4px;
+  width: 100%;
+}
+
+.odisha-border-strip-subtle {
+  background: repeating-linear-gradient(
+    90deg,
+    #8B3028 0px,
+    #8B3028 8px,
+    #E3A84B 8px,
+    #E3A84B 12px,
+    #17655B 12px,
+    #17655B 20px,
+    #E3A84B 20px,
+    #E3A84B 24px
+  );
+  height: 2px;
+  width: 100%;
+}
