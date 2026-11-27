@@ -204,7 +204,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       tagline: "AI for a Safer and Smarter Odisha",
       taglineSub: "Civic intelligence & offline-first disaster preparedness platform",
       pilotBadge: "Research Prototype • Odisha AI Hackathon",
-      pilotNotice: "Independent disaster-information prototype. Not an official government emergency service.",
+      pilotNotice: "Independent student research project, not an official government emergency response service. For genuine emergencies, dial 112.",
     },
     nav: {
       about: "About",
@@ -225,10 +225,10 @@ export const translations: Record<Language, TranslationDictionary> = {
         "An offline-first disaster preparedness and governance research platform designed around the needs of Odisha's coastal, riverine, and rural communities.",
       downloadCta: "Download for Android",
       exploreCta: "Explore JanaKavach",
-      releaseLabel: "v1.0.3 Universal Release",
+      releaseLabel: "v1.0.9 Research Beta",
       platformLabel: "Android 7.0+ (API 24 to 36)",
       testsPassed: "381 Automated Tests Passed",
-      verifiedSigning: "Permanent RSA-4096 Signed",
+      verifiedSigning: "Verified RSA 4096-bit",
       heroCardTitle: "Khordha (Bhubaneswar)",
       heroCardStatus: "Service Reachable • Normal Status",
       heroCardWeather: "26.0°C • Mainly Clear",
@@ -271,7 +271,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "Strictly Implemented Capabilities",
       subtitle:
         "JanaKavach does not make exaggerated promises. Every feature listed here is verified in production code and tested across 381 automated test suites.",
-      implementedTitle: "Active Features in v1.0.3",
+      implementedTitle: "Active Features in v1.0.9",
       roadmapTitle: "Explicit Boundary: What is NOT Implemented",
       items: [
         {
@@ -330,11 +330,11 @@ export const translations: Record<Language, TranslationDictionary> = {
       roadmapItems: [
         {
           title: "No Automatic Emergency Dispatch",
-          desc: "JanaKavach is not connected to Emergency 112 or police/fire dispatch. In imminent danger, citizens must dial 112 directly.",
+          desc: "JanaKavach is an independent student research project, not an official government emergency response service. Emergency submissions are not monitored by official responders. For genuine emergencies, dial 112.",
         },
         {
           title: "No Verified Evacuation Turn-by-Turn Routing",
-          desc: "Shelter coordinates represent administrative centroids, not surveyed building doors or flood-safe road navigation.",
+          desc: "Shelter locations may be approximate and require independent verification. Coordinates represent administrative centroids, not surveyed building doors.",
         },
         {
           title: "No Automatic Report Sync or Cloud Submission",
@@ -376,7 +376,7 @@ export const translations: Record<Language, TranslationDictionary> = {
           level: "L2 — SMS Fallback (Roadmap)",
           condition: "No mobile data, cellular radio channel active",
           channel: "Roadmap Concept — Not Implemented",
-          experience: "Future architectural concept for compact SMS relay; strictly not implemented or active in v1.0.3.",
+          experience: "Future architectural concept for compact SMS relay; strictly not implemented or active in v1.0.9.",
           isRoadmap: true,
         },
         {
@@ -398,8 +398,8 @@ export const translations: Record<Language, TranslationDictionary> = {
       tag: "Production UI",
       title: "Authentic Mobile Application Screens",
       subtitle:
-        "Direct captures from the installed JanaKavach Android v1.0.3 build running on hardware. Precise location coordinates have been redacted for privacy. No simulated dashboards.",
-      realAppNotice: "Authentic Android App Screenshots • Build 6 (Universal)",
+        "Direct captures from the installed JanaKavach Android build running on hardware. Precise location coordinates have been redacted for privacy. No simulated dashboards.",
+      realAppNotice: "Authentic Android App Screenshots • Build 12 (Research Beta)",
       items: [
         {
           id: "home-weather",
@@ -481,30 +481,30 @@ export const translations: Record<Language, TranslationDictionary> = {
       tag: "Verified Distribution",
       title: "Download JanaKavach for Android",
       subtitle:
-        "Universal APK package signed with a permanent RSA-4096 cryptographic keystore and validated against 381 automated test suites.",
-      version: "1.0.3",
-      build: "6",
-      size: "59.8 MB",
+        "Android APK package signed with a Verified RSA 4096-bit cryptographic keystore for the Research Beta channel.",
+      version: "1.0.9",
+      build: "12",
+      size: "65.5 MB",
       minAndroid: "Android 7.0 (Nougat, API 24)",
       targetSdk: "Android 16 (API 36)",
       abis: "arm64-v8a, armeabi-v7a, x86_64",
-      signingKey: "Permanent RSA-4096",
+      signingKey: "Verified RSA 4096-bit",
       checksumLabel: "SHA-256 Checksum",
       copyChecksum: "Copy Checksum",
       copied: "Copied to Clipboard",
-      downloadBtn: "Download Universal APK (v1.0.3)",
-      unconfiguredBtn: "Pilot download not yet configured",
+      downloadBtn: "Download Research Beta APK (v1.0.9)",
+      unconfiguredBtn: "Research Beta — Restricted Access",
       unconfiguredDesc:
-        "The direct APK download URL is not yet configured on this deployment. Authorized pilot testers should contact the hackathon administrator.",
+        "Unrestricted APK downloads remain disabled until dataset redistribution clearance is established. Authorized testers may inspect release v1.0.9 at github.com/shavedXpixel/JanaKavach-Releases/releases/tag/v1.0.9.",
       releaseNotesLink: "View Detailed Release Notes",
       scanQr: "Scan Deployment QR Code",
       qrDescription: "Scan this QR code with your phone camera to open this deployment page on mobile.",
       qrUnconfigured: "QR code available when NEXT_PUBLIC_SITE_URL is configured.",
-      pilotTesterNoticeTitle: "Pilot Tester Access Notice",
+      pilotTesterNoticeTitle: "Research Beta Access Notice",
       pilotTesterNoticeDesc:
-        "During this research pilot phase, the distribution repository may require sign-in by authorized Odisha AI Hackathon testers. Ensure you are signed in to an authorized GitHub account if prompted.",
+        "JanaKavach v1.0.9 is distributed via the Research Beta channel on GitHub Releases (github.com/shavedXpixel/JanaKavach-Releases/releases). Unrestricted public downloads remain gated until dataset redistribution clearance is established.",
       downloadDisclaimer:
-        "Research Pilot Disclaimer: JanaKavach is an independent research prototype. It does not provide emergency dispatch. For life-threatening emergencies, call 112 immediately.",
+        "Research Disclaimer: JanaKavach is an independent student research project, not an official government emergency response service. Emergency submissions are not monitored by official responders. For genuine emergencies, dial 112. Shelter locations may be approximate and require independent verification.",
     },
     install: {
       tag: "Step-by-Step",
@@ -515,7 +515,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         {
           number: "01",
           title: "Download the APK",
-          desc: "Tap the download button above to save 'JanaKavach-v1.0.3-universal.apk' to your phone's Downloads directory.",
+          desc: "Tap the download button above to save 'JanaKavach-v1.0.9.apk' to your phone's Downloads directory.",
         },
         {
           number: "02",
@@ -593,7 +593,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       hackathonAttribution:
         "Developed as an independent research prototype for the Odisha AI Hackathon. Dedicated to the resilience of Odisha's communities.",
       prototypeNotice:
-        "Research Pilot Prototype. Not affiliated with, endorsed by, or operated by any government department. For life-threatening emergencies, dial 112 immediately.",
+        "JanaKavach is an independent student research project, not an official government emergency response service. Emergency submissions are not monitored by official responders. For genuine emergencies, dial 112.",
       navigationHeader: "Navigation",
       legalHeader: "Governance & Safety",
       links: {
@@ -603,7 +603,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         officerPortal: "Officer Cockpit",
         privacy: "Privacy Policy",
         disclaimer: "Pilot Disclaimer",
-        releaseNotes: "Release Notes v1.0.3",
+        releaseNotes: "Release Notes v1.0.9",
       },
       allRightsReserved: "JanaKavach Research Prototype • Open Source & Community Resilience",
     },
@@ -615,7 +615,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       tagline: "ସୁରକ୍ଷିତ ଓ ସ୍ମାର୍ଟ ଓଡ଼ିଶା ପାଇଁ କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା (AI)",
       taglineSub: "ନାଗରିକ ସୁରକ୍ଷା ଓ ଅଫଲାଇନ୍-ପ୍ରାଥମିକ ବିପର୍ଯ୍ୟୟ ପ୍ରସ୍ତୁତି ମଞ୍ଚ",
       pilotBadge: "ଗବେଷଣା ପ୍ରୋଟୋଟାଇପ୍ • ଓଡ଼ିଶା AI ହାକାଥନ୍",
-      pilotNotice: "ସ୍ୱତନ୍ତ୍ର ବିପର୍ଯ୍ୟୟ ସୂଚନା ଗବେଷଣା ପ୍ରୋଟୋଟାଇପ୍। ଏହା ସରକାରୀ ଜରୁରୀକାଳୀନ ସେବା ନୁହେଁ।",
+      pilotNotice: "ସ୍ୱତନ୍ତ୍ର ଛାତ୍ର ଗବେଷଣା ପ୍ରକଳ୍ପ, ସରକାରୀ ଜରୁରୀକାଳୀନ ସେବା ନୁହେଁ। ପ୍ରକୃତ ଜରୁରୀ ସ୍ଥିତିରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।",
     },
     nav: {
       about: "ପରିଚୟ",
@@ -636,10 +636,10 @@ export const translations: Record<Language, TranslationDictionary> = {
         "ଓଡ଼ିଶାର ଉପକୂଳ, ନଦୀକୂଳ ଓ ଗ୍ରାମାଞ୍ଚଳର ଜନସାଧାରଣଙ୍କ ପ୍ରକୃତ ଆବଶ୍ୟକତାକୁ ନଜରରେ ରଖି ପ୍ରସ୍ତୁତ ଏକ ଅଫଲାଇନ୍-ପ୍ରାଥମିକ ବିପର୍ଯ୍ୟୟ ପ୍ରସ୍ତୁତି ଓ ଶାସନ ଗବେଷଣା ମଞ୍ଚ।",
       downloadCta: "ଆଣ୍ଡ୍ରଏଡ୍ ପାଇଁ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
       exploreCta: "ଜନକବଚ ବିଷୟରେ ଜାଣନ୍ତୁ",
-      releaseLabel: "v1.0.3 ସାର୍ବଜନୀନ ରିଲିଜ୍",
+      releaseLabel: "v1.0.9 ଗବେଷଣା ବିଟା",
       platformLabel: "ଆଣ୍ଡ୍ରଏଡ୍ ୭.୦+ (API ୨୪ ରୁ ୩୬)",
       testsPassed: "୩୮୧ଟି ସ୍ୱୟଂଚାଳିତ ପରୀକ୍ଷା ଉତ୍ତୀର୍ଣ୍ଣ",
-      verifiedSigning: "ସ୍ଥାୟୀ RSA-4096 କିଷ୍ଟୋର ସ୍ୱାକ୍ଷରିତ",
+      verifiedSigning: "ଯାଞ୍ଚ ହୋଇଥିବା RSA 4096-bit",
       heroCardTitle: "ଖୋର୍ଦ୍ଧା (ଭୁବନେଶ୍ୱର)",
       heroCardStatus: "ସର୍ଭିସ୍ ସକ୍ରିୟ • ସ୍ୱାଭାବିକ ସ୍ଥିତି",
       heroCardWeather: "୨୬.୦°C • ପ୍ରାୟତଃ ପରିଷ୍କାର ଆକାଶ",
@@ -682,7 +682,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "ପ୍ରକୃତରେ ପ୍ରସ୍ତୁତ ବୈଶିଷ୍ଟ୍ୟ ସମୂହ",
       subtitle:
         "ଜନକବଚ କୌଣସି ଅବାସ୍ତବ ଦାବି କରେ ନାହିଁ। ଏଠାରେ ଉଲ୍ଲେଖ ଥିବା ପ୍ରତ୍ୟେକ ବୈଶିଷ୍ଟ୍ୟ ଆମର କୋଡ୍ ଏବଂ ୩୮୧ଟି ସ୍ୱୟଂଚାଳିତ ପରୀକ୍ଷାରେ ଯାଞ୍ଚ କରାଯାଇଛି।",
-      implementedTitle: "ସଂସ୍କରଣ v1.0.3 ରେ ଉପଲବ୍ଧ ସୁବିଧା",
+      implementedTitle: "ସଂସ୍କରଣ v1.0.9 ରେ ଉପଲବ୍ଧ ସୁବିଧା",
       roadmapTitle: "ସ୍ପଷ୍ଟ ସୀମା: କ’ଣ କାର୍ଯ୍ୟକ୍ଷମ ନୁହେଁ",
       items: [
         {
@@ -741,11 +741,11 @@ export const translations: Record<Language, TranslationDictionary> = {
       roadmapItems: [
         {
           title: "କୌଣସି AI ଜରୁରୀକାଳୀନ ଉଦ୍ଧାର ପ୍ରେରଣ ନାହିଁ",
-          desc: "ଜନକବଚ ସରକାରୀ ୧୧୨ କିମ୍ବା ପୋଲିସ/ଅଗ୍ନିଶମ ବାହିନୀ ସହ ସିଧାସଳଖ ସଂଯୁକ୍ତ ନୁହେଁ। ଜରୁରୀ ବିପଦରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।",
+          desc: "ଜନକବଚ ଏକ ସ୍ୱତନ୍ତ୍ର ଛାତ୍ର ଗବେଷଣା ପ୍ରକଳ୍ପ, କୌଣସି ସରକାରୀ ଜରୁରୀକାଳୀନ ପ୍ରତିକ୍ରିୟା ସେବା ନୁହେଁ। ଜରୁରୀକାଳୀନ ଦାଖଲ ସରକାରୀ ଉଦ୍ଧାରକାରୀଙ୍କ ଦ୍ୱାରା ତଦାରଖ ହୁଏ ନାହିଁ। ପ୍ରକୃତ ଜରୁରୀ ସ୍ଥିତିରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।",
         },
         {
           title: "କୌଣସି ସତ୍ୟାପିତ ନିରାପଦ ନେଭିଗେସନ୍ ନାହିଁ",
-          desc: "ଆଶ୍ରୟସ୍ଥଳୀ ନିର୍ଦ୍ଦେଶାଙ୍କ ପ୍ରଶାସନିକ କେନ୍ଦ୍ରବିନ୍ଦୁ ଦର୍ଶାଏ, ଏହା ପ୍ରକୃତ କୋଠା ପ୍ରବେଶପଥ ବା ବନ୍ୟାମୁକ୍ତ ରାସ୍ତା ନୁହେଁ।",
+          desc: "ଆଶ୍ରୟସ୍ଥଳୀର ଅବସ୍ଥାନ ଆନୁମାନିକ ହୋଇପାରେ ଏବଂ ଏହାର ସ୍ୱତନ୍ତ୍ର ଯାଞ୍ଚ ଆବଶ୍ୟକ।",
         },
         {
           title: "କୌଣସି ସ୍ୱୟଂଚାଳିତ କ୍ଲାଉଡ୍ ରିପୋର୍ଟ ସିଙ୍କ୍ ନାହିଁ",
@@ -787,7 +787,7 @@ export const translations: Record<Language, TranslationDictionary> = {
           level: "L2 — SMS ଫଲବ୍ୟାକ୍ (ଭବିଷ୍ୟତ ଯୋଜନା)",
           condition: "ମୋବାଇଲ୍ ଡାଟା ନାହିଁ, କେବଳ ସେଲ୍ୟୁଲାର୍ ରେଡିଓ",
           channel: "ଭବିଷ୍ୟତ କଳ୍ପନା — କାର୍ଯ୍ୟକ୍ଷମ ନୁହେଁ",
-          experience: "ଭବିଷ୍ୟତ ପାଇଁ ଏକ ପରିକଳ୍ପିତ SMS ଫର୍ମାଟ୍; v1.0.3 ରେ ଏହା କାର୍ଯ୍ୟକ୍ଷମ ନୁହେଁ।",
+          experience: "ଭବିଷ୍ୟତ ପାଇଁ ଏକ ପରିକଳ୍ପିତ SMS ଫର୍ମାଟ୍; v1.0.9 ରେ ଏହା କାର୍ଯ୍ୟକ୍ଷମ ନୁହେଁ।",
           isRoadmap: true,
         },
         {
@@ -809,8 +809,8 @@ export const translations: Record<Language, TranslationDictionary> = {
       tag: "ଆପ୍ ଚିତ୍ର",
       title: "ପ୍ରକୃତ ମୋବାଇଲ୍ ଆପ୍ଲିକେସନ୍ ପ୍ରଦର୍ଶନ",
       subtitle:
-        "ଆଣ୍ଡ୍ରଏଡ୍ ଫୋନରେ ଚାଲୁଥିବା ଜନକବଚ v1.0.3 ର ବାସ୍ତବ ସ୍କ୍ରିନସଟ୍। ଗୋପନୀୟତା ପାଇଁ ସଠିକ୍ ଅବସ୍ଥାନ ନିର୍ଦ୍ଦେଶାଙ୍କ ଘୋଡ଼ାଇ ଦିଆଯାଇଛି (Redacted)।",
-      realAppNotice: "ପ୍ରକୃତ ଆଣ୍ଡ୍ରଏଡ୍ ଆପ୍ଲିକେସନ୍ ସ୍କ୍ରିନସଟ୍ • ବିଲ୍ଡ ୬",
+        "ଆଣ୍ଡ୍ରଏଡ୍ ଫୋନରେ ଚାଲୁଥିବା ଜନକବଚ v1.0.9 ର ବାସ୍ତବ ସ୍କ୍ରିନସଟ୍। ଗୋପନୀୟତା ପାଇଁ ସଠିକ୍ ଅବସ୍ଥାନ ନିର୍ଦ୍ଦେଶାଙ୍କ ଘୋଡ଼ାଇ ଦିଆଯାଇଛି (Redacted)।",
+      realAppNotice: "ପ୍ରକୃତ ଆଣ୍ଡ୍ରଏଡ୍ ଆପ୍ଲିକେସନ୍ ସ୍କ୍ରିନସଟ୍ • ବିଲ୍ଡ ୧୨ (ଗବେଷଣା ବିଟା)",
       items: [
         {
           id: "home-weather",
@@ -892,30 +892,30 @@ export const translations: Record<Language, TranslationDictionary> = {
       tag: "ସୁରକ୍ଷିତ ଡାଉନଲୋଡ୍",
       title: "ଆଣ୍ଡ୍ରଏଡ୍ ପାଇଁ ଜନକବଚ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
       subtitle:
-        "ସ୍ଥାୟୀ RSA-4096 କ୍ରିପ୍ଟୋଗ୍ରାଫିକ୍ କିଷ୍ଟୋର ଦ୍ୱାରା ସ୍ୱାକ୍ଷରିତ ଏବଂ ୩୮୧ଟି ସ୍ୱୟଂଚାଳିତ ପରୀକ୍ଷାରେ ଯାଞ୍ଚ ହୋଇଥିବା ସାର୍ବଜନୀନ APK।",
-      version: "1.0.3",
-      build: "6",
-      size: "୫୯.୮ MB",
+        "ଗବେଷଣା ବିଟା ଚ୍ୟାନେଲ୍ ପାଇଁ ଯାଞ୍ଚ ହୋଇଥିବା RSA 4096-bit କ୍ରିପ୍ଟୋଗ୍ରାଫିକ୍ କିଷ୍ଟୋର ଦ୍ୱାରା ସ୍ୱାକ୍ଷରିତ ଆଣ୍ଡ୍ରଏଡ୍ APK।",
+      version: "1.0.9",
+      build: "12",
+      size: "୬୫.୫ MB",
       minAndroid: "ଆଣ୍ଡ୍ରଏଡ୍ ୭.୦ (Nougat, API ୨୪)",
       targetSdk: "ଆଣ୍ଡ୍ରଏଡ୍ ୧୬ (API ୩୬)",
       abis: "arm64-v8a, armeabi-v7a, x86_64",
-      signingKey: "ସ୍ଥାୟୀ RSA-4096",
+      signingKey: "ଯାଞ୍ଚ ହୋଇଥିବା RSA 4096-bit",
       checksumLabel: "SHA-256 ଚେକସମ୍",
       copyChecksum: "ଚେକସମ୍ କପି କରନ୍ତୁ",
       copied: "କ୍ଲିପବୋର୍ଡକୁ କପି ହୋଇଛି",
-      downloadBtn: "ସାର୍ବଜନୀନ APK ଡାଉନଲୋଡ୍ (v1.0.3)",
-      unconfiguredBtn: "ପାଇଲଟ୍ ଡାଉନଲୋଡ୍ ଲିଙ୍କ୍ ଏପର୍ଯ୍ୟନ୍ତ ସେଟ୍ ହୋଇନାହିଁ",
+      downloadBtn: "ଗବେଷଣା ବିଟା APK ଡାଉନଲୋଡ୍ (v1.0.9)",
+      unconfiguredBtn: "ଗବେଷଣା ବିଟା — ସୀମିତ ପ୍ରବେଶ",
       unconfiguredDesc:
-        "ଏହି ଡିପ୍ଲୟମେଣ୍ଟରେ ସିଧାସଳଖ APK ଲିଙ୍କ୍ ସେଟ୍ ହୋଇନାହିଁ। ଅନୁମୋଦିତ ପରୀକ୍ଷକମାନେ ଆଡମିନିଷ୍ଟ୍ରେଟରଙ୍କ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।",
+        "ଡାଟାସେଟ୍ ପୁନଃବଣ୍ଟନ ଅନୁମତି ସ୍ପଷ୍ଟ ନହେବା ପର୍ଯ୍ୟନ୍ତ ଅସୀମିତ APK ଡାଉନଲୋଡ୍ ବନ୍ଦ ରହିଛି। ଅନୁମୋଦିତ ପରୀକ୍ଷକମାନେ github.com/shavedXpixel/JanaKavach-Releases/releases/tag/v1.0.9 ଦେଖିପାରିବେ।",
       releaseNotesLink: "ବିସ୍ତୃତ ରିଲିଜ୍ ବିବରଣୀ ଦେଖନ୍ତୁ",
       scanQr: "ମୋବାଇଲରେ ଖୋଲିବାକୁ ସ୍କାନ୍ କରନ୍ତୁ",
       qrDescription: "ଆପଣଙ୍କ ଫୋନ୍ କ୍ୟାମେରା ବା କ୍ୟୁଆର୍ ସ୍କାନର୍ ମାଧ୍ୟମରେ ଏହି କୋଡ୍ ସ୍କାନ୍ କରି ସିଧାସଳଖ ଡାଉନଲୋଡ୍ ପେଜ୍ ଖୋଲନ୍ତୁ।",
       qrUnconfigured: "NEXT_PUBLIC_SITE_URL ସେଟ୍ ହେଲେ QR କୋଡ୍ ଉପଲବ୍ଧ ହେବ।",
-      pilotTesterNoticeTitle: "ପାଇଲଟ୍ ପରୀକ୍ଷକ ସୂଚନା",
+      pilotTesterNoticeTitle: "ଗବେଷଣା ବିଟା ପ୍ରବେଶ ସୂଚନା",
       pilotTesterNoticeDesc:
-        "ଏହି ଗବେଷଣା ପାଇଲଟ୍ ସମୟରେ ରିଲିଜ୍ ରିପୋଜିଟୋରୀ କେବଳ ଅନୁମୋଦିତ ଓଡ଼ିଶା AI ହାକାଥନ୍ ପରୀକ୍ଷକଙ୍କ ପାଇଁ ସୀମିତ ହୋଇପାରେ। ଆବଶ୍ୟକ ହେଲେ ଅନୁମୋଦିତ GitHub ଆକାଉଣ୍ଟରେ ଲଗ୍-ଇନ୍ କରନ୍ତୁ।",
+        "ଜନକବଚ v1.0.9 GitHub Releases (github.com/shavedXpixel/JanaKavach-Releases/releases) ରେ Research Beta ଚ୍ୟାନେଲ୍ ମାଧ୍ୟମରେ ଉପଲବ୍ଧ। ଡାଟାସେଟ୍ ପୁନଃବଣ୍ଟନ ଅନୁମତି ନମିଳିବା ପର୍ଯ୍ୟନ୍ତ ସର୍ବସାଧାରଣ ଡାଉନଲୋଡ୍ ସୀମିତ ରହିଛି।",
       downloadDisclaimer:
-        "ଗବେଷଣା ପାଇଲଟ୍ ଦାୟିତ୍ୱମୁକ୍ତି: ଜନକବଚ ଏକ ସ୍ୱତନ୍ତ୍ର ଗବେଷଣା ପ୍ରୋଟୋଟାଇପ୍। ଏହା କୌଣସି ଜରୁରୀକାଳୀନ ଉଦ୍ଧାର ପ୍ରଦାନ କରେ ନାହିଁ। ଜରୁରୀ ବିପଦରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।",
+        "ଗବେଷଣା ଦାୟିତ୍ୱମୁକ୍ତି: ଜନକବଚ ଏକ ସ୍ୱତନ୍ତ୍ର ଛାତ୍ର ଗବେଷଣା ପ୍ରକଳ୍ପ, କୌଣସି ସରକାରୀ ଜରୁରୀକାଳୀନ ପ୍ରତିକ୍ରିୟା ସେବା ନୁହେଁ। ଜରୁରୀକାଳୀନ ଦାଖଲ ସରକାରୀ ଉଦ୍ଧାରକାରୀଙ୍କ ଦ୍ୱାରା ତଦାରଖ ହୁଏ ନାହିଁ। ପ୍ରକୃତ ଜରୁରୀ ସ୍ଥିତିରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ। ଆଶ୍ରୟସ୍ଥଳୀ ଅବସ୍ଥାନ ଆନୁମାନିକ ହୋଇପାରେ ଏବଂ ସ୍ୱତନ୍ତ୍ର ଯାଞ୍ଚ ଆବଶ୍ୟକ।",
     },
     install: {
       tag: "ସହଜ ପଦକ୍ଷେପ",
@@ -926,7 +926,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         {
           number: "୦୧",
           title: "APK ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
-          desc: "ଉପରେ ଥିବା ଡାଉନଲୋଡ୍ ବଟନ୍ କ୍ଲିକ୍ କରି 'JanaKavach-v1.0.3-universal.apk' ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ।",
+          desc: "ଉପରେ ଥିବା ଡାଉନଲୋଡ୍ ବଟନ୍ କ୍ଲିକ୍ କରି 'JanaKavach-v1.0.9.apk' ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ।",
         },
         {
           number: "୦୨",
@@ -1004,7 +1004,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       hackathonAttribution:
         "ଓଡ଼ିଶା AI ହାକାଥନ୍ ପାଇଁ ପ୍ରସ୍ତୁତ ଏକ ସ୍ୱତନ୍ତ୍ର ଗବେଷଣା ପ୍ରୋଟୋଟାଇପ୍। ଓଡ଼ିଶାର ଜନସାଧାରଣଙ୍କ ସୁରକ୍ଷା ପ୍ରତି ସମର୍ପିତ।",
       prototypeNotice:
-        "ଗବେଷଣା ପାଇଲଟ୍ ପ୍ରୋଟୋଟାଇପ୍। କୌଣସି ସରକାରୀ ବିଭାଗ ସହ ସଂପୃକ୍ତ ନୁହେଁ। ଜୀବନ ପ୍ରତି ବିପଦ ଥିବା ସ୍ଥିତିରେ ତୁରନ୍ତ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।",
+        "ଜନକବଚ ଏକ ସ୍ୱତନ୍ତ୍ର ଛାତ୍ର ଗବେଷଣା ପ୍ରକଳ୍ପ, କୌଣସି ସରକାରୀ ଜରୁରୀକାଳୀନ ପ୍ରତିକ୍ରିୟା ସେବା ନୁହେଁ। ଜରୁରୀକାଳୀନ ଦାଖଲ ସରକାରୀ ଉଦ୍ଧାରକାରୀଙ୍କ ଦ୍ୱାରା ତଦାରଖ ହୁଏ ନାହିଁ। ପ୍ରକୃତ ଜରୁରୀ ସ୍ଥିତିରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।",
       navigationHeader: "ମୁଖ୍ୟ ଲିଙ୍କ୍",
       legalHeader: "ନିୟମାବଳୀ ଓ ସୁରକ୍ଷା",
       links: {
@@ -1014,7 +1014,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         officerPortal: "ପ୍ରଶାସକ କକପିଟ୍",
         privacy: "ଗୋପନୀୟତା ନୀତି",
         disclaimer: "ପାଇଲଟ୍ ଦାୟିତ୍ୱମୁକ୍ତି",
-        releaseNotes: "ରିଲିଜ୍ ବିବରଣୀ v1.0.3",
+        releaseNotes: "ରିଲିଜ୍ ବିବରଣୀ v1.0.9",
       },
       allRightsReserved: "ଜନକବଚ ଗବେଷଣା ପ୍ରୋଟୋଟାଇପ୍ • ମୁକ୍ତ ଉତ୍ସ ଓ ନାଗରିକ ସୁରକ୍ଷା",
     },

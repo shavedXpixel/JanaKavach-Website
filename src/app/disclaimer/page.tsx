@@ -55,8 +55,8 @@ export default function DisclaimerPage() {
             </div>
             <p className="text-xs sm:text-sm text-[#4A5568] leading-relaxed">
               {isOdia
-                ? "ଜନକବଚ ସରକାରୀ ଜରୁରୀକାଳୀନ ନମ୍ବର ୧୧୨, ପୋଲିସ, ଅଗ୍ନିଶମ ବାହିନୀ କିମ୍ବା ODRAF ସହିତ ସିଧାସଳଖ ସଂଯୁକ୍ତ ନୁହେଁ। ଆପରେ ରେକର୍ଡ ହୋଇଥିବା ଘଟଣା କେବଳ ଫୋନରେ ହିଁ ସୁରକ୍ଷିତ ରହେ (ଏହି ପାଇଲଟରେ କ୍ଲାଉଡ୍ ପ୍ରେରଣ ନିଷ୍କ୍ରିୟ) ଏବଂ ଏହା ସ୍ୱୟଂଚାଳିତ ଭାବେ ଉଦ୍ଧାରକାରୀ ଦଳ ପଠାଏ ନାହିଁ। ଜୀବନ ପ୍ରତି ବିପଦ ଥିବା ସମୟରେ ତୁରନ୍ତ ଫୋନରୁ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।"
-                : "JanaKavach does NOT connect to the Government of India / Government of Odisha Emergency Response Support System (ERSS 112), Fire Services, Police, or ODRAF rescue units. Reports saved in the application are stored only in local on-device storage (cloud submission is disabled during this pilot) and do not trigger automatic rescue dispatch. For imminent life threats, dial 112 immediately."}
+                ? "ଜନକବଚ ଏକ ସ୍ୱତନ୍ତ୍ର ଛାତ୍ର ଗବେଷଣା ପ୍ରକଳ୍ପ, କୌଣସି ସରକାରୀ ଜରୁରୀକାଳୀନ ପ୍ରତିକ୍ରିୟା ସେବା ନୁହେଁ। ଜରୁରୀକାଳୀନ ଦାଖଲଗୁଡ଼ିକ ସରକାରୀ ଉଦ୍ଧାରକାରୀଙ୍କ ଦ୍ୱାରା ତଦାରଖ କରାଯାଏ ନାହିଁ। ପ୍ରକୃତ ଜରୁରୀକାଳୀନ ପରିସ୍ଥିତିରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।"
+                : "JanaKavach is an independent student research project, not an official government emergency response service. Emergency submissions are not monitored by official responders. For genuine emergencies, dial 112."}
             </p>
           </div>
 
@@ -68,8 +68,8 @@ export default function DisclaimerPage() {
             </div>
             <p className="text-xs sm:text-sm text-[#4A5568] leading-relaxed">
               {isOdia
-                ? "ଏହି ଆପ୍ଲିକେସନରେ ଥିବା ୧୫୮ଟି CMRF ଆଶ୍ରୟସ୍ଥଳୀ ତଥ୍ୟ ପ୍ରଡକ୍ସନ୍ API ରୁ ପ୍ରାପ୍ତ ହୋଇ ଫୋନରେ କ୍ୟାଶ୍ ହୋଇଥାଏ (ନୂତନ ଅଫଲାଇନ୍ ଇନଷ୍ଟଲେସନରେ ଏହା ପ୍ରଥମରୁ ବଣ୍ଡଲ୍ ହୋଇନଥାଏ)। ସମସ୍ତ ୧୫୮ଟି ଆଶ୍ରୟସ୍ଥଳୀ କେବଳ ପ୍ରଶାସନିକ କେନ୍ଦ୍ରବିନ୍ଦୁ (Centroids) ଦର୍ଶାଏ, ପ୍ରକୃତ କୋଠାର ଗେଟ୍ ବା ପ୍ରବେଶପଥ ନୁହେଁ। ବିପର୍ଯ୍ୟୟ ସମୟରେ ଏହାର କାର୍ଯ୍ୟକ୍ଷମ ସ୍ଥିତି ଅଧିକାରୀଙ୍କ ଭୌତିକ ଯାଞ୍ଚ ବିନା 'ଅଜ୍ଞାତ' (Status Unknown) ଭାବେ ଚିହ୍ନିତ।"
-                : "The 158 Chief Minister's Relief Fund (CMRF) shelter listings are retrieved from the production API and cached in local encrypted storage upon loading (they are not pre-bundled on a fresh offline APK install). All 158 listings represent administrative centroid coordinates rather than surveyed building entrances, with zero verified entrance coordinates. Structural readiness and live operational status remain 'Status Unknown' until physically inspected by authorized ground officers."}
+                ? "ଏହି ଆପ୍ଲିକେସନରେ ଥିବା ୧୫୮ଟି CMRF ଆଶ୍ରୟସ୍ଥଳୀ ତଥ୍ୟ ପ୍ରଡକ୍ସନ୍ API ରୁ ପ୍ରାପ୍ତ ହୋଇ ଫୋନରେ କ୍ୟାଶ୍ ହୋଇଥାଏ (ନୂତନ ଅଫଲାଇନ୍ ଇନଷ୍ଟଲେସନରେ ଏହା ପ୍ରଥମରୁ ବଣ୍ଡଲ୍ ହୋଇନଥାଏ)। ଆଶ୍ରୟସ୍ଥଳୀର ଅବସ୍ଥାନ ଆନୁମାନିକ ହୋଇପାରେ ଏବଂ ଏହାର ସ୍ୱତନ୍ତ୍ର ଯାଞ୍ଚ ଆବଶ୍ୟକ। ବିପର୍ଯ୍ୟୟ ସମୟରେ ଏହାର କାର୍ଯ୍ୟକ୍ଷମ ସ୍ଥିତି ଅଧିକାରୀଙ୍କ ଭୌତିକ ଯାଞ୍ଚ ବିନା 'ଅଜ୍ଞାତ' (Status Unknown) ଭାବେ ଚିହ୍ନିତ।"
+                : "The 158 Chief Minister's Relief Fund (CMRF) shelter listings are retrieved from the production API and cached in local encrypted storage upon loading (they are not pre-bundled on a fresh offline APK install). Shelter locations may be approximate and require independent verification. Structural readiness and live operational status remain 'Status Unknown' until physically inspected by authorized ground officers."}
             </p>
           </div>
 

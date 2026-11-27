@@ -45,11 +45,11 @@ export default function PrivacyPage() {
           </p>
 
           <div className="mt-6 pt-6 border-t border-[#E8DFC9] flex flex-wrap items-center gap-4 text-xs text-[#718096]">
-            <span>Version: 1.0.3</span>
+            <span>Version: 1.0.9 (Research Beta)</span>
             <span>•</span>
             <span>Effective: November 2026</span>
             <span>•</span>
-            <span>Independent Research Pilot</span>
+            <span>Independent Student Research Project</span>
           </div>
         </div>
 
@@ -86,8 +86,8 @@ export default function PrivacyPage() {
             </div>
             <p className="text-xs sm:text-sm text-[#4A5568] leading-relaxed">
               {isOdia
-                ? "ଅଫଲାଇନ୍ OSDMA ବିପର୍ଯ୍ୟୟ ସୁରକ୍ଷା ନିର୍ଦ୍ଦେଶାବଳୀ ଆପରେ ସଂଲଗ୍ନ ଥିବାବେଳେ, ପ୍ରଡକ୍ସନ୍ API ରୁ ଡାଉନଲୋଡ୍ ହୋଇଥିବା ୧୫୮ଟି CMRF ଆଶ୍ରୟସ୍ଥଳୀ ତଥ୍ୟ ଏବଂ ନାଗରିକଙ୍କ ସ୍ଥାନୀୟ ଘଟଣା ରିପୋର୍ଟ ଫୋନର ଏନକ୍ରିପ୍ଟ ହୋଇଥିବା SQLite ଡାଟାବେସରେ ସଂରକ୍ଷିତ ଓ କ୍ୟାଶ୍ ରହେ। ଏହି ପାଇଲଟରେ କୌଣସି କ୍ଲାଉଡ୍ ସିଙ୍କ୍ ସକ୍ରିୟ ନାହିଁ; ରିପୋର୍ଟ କେବଳ ଫୋନରେ ହିଁ ରହେ।"
-                : "Offline OSDMA safety guides are embedded locally within the application. The 158 CMRF shelter listings are retrieved from the production API and cached in an encrypted on-device SQLite database for subsequent offline access. Citizen observations recorded in the app remain strictly in this local database; cloud submission and automatic sync remain disabled during this research pilot."}
+                ? "ଅଫଲାଇନ୍ OSDMA ବିପର୍ଯ୍ୟୟ ସୁରକ୍ଷା ନିର୍ଦ୍ଦେଶାବଳୀ ଆପରେ ସଂଲଗ୍ନ ଥିବାବେଳେ, ପ୍ରଡକ୍ସନ୍ API ରୁ ଡାଉନଲୋଡ୍ ହୋଇଥିବା ୧୫୮ଟି CMRF ଆଶ୍ରୟସ୍ଥଳୀ ତଥ୍ୟ ଏବଂ ସ୍ଥାନୀୟ ଘଟଣା ଡ୍ରାଫ୍ଟ ଫୋନର ଏନକ୍ରିପ୍ଟ ହୋଇଥିବା SQLite ଡାଟାବେସରେ ସଂରକ୍ଷିତ ରହେ। ଇନସିଡେଣ୍ଟ ରିପୋର୍ଟିଂ ଏବଂ Quiet Help SOS ପାଇଁ ସ୍ପଷ୍ଟ ଗବେଷଣା ସମ୍ମତି (Research Exercise Consent) ସହିତ ନାଗରିକମାନେ ଉଭୟ ସ୍ଥାନୀୟ ଏବଂ ସର୍ଭର-ସାଇଡ୍ ଡାଟା ବିଲୋପ (Deletion) ନିୟନ୍ତ୍ରଣ କରିପାରିବେ।"
+                : "Offline OSDMA safety guides are embedded locally within the application. The 158 CMRF shelter listings are retrieved from the production API and cached in an encrypted on-device SQLite database for subsequent offline access. Incident Reporting and Quiet Help SOS require explicit research exercise consent, and citizens have both local and server-side data deletion controls."}
             </p>
           </div>
 

@@ -13,7 +13,7 @@ export default function ReleaseNotesPage() {
   const [copied, setCopied] = useState(false);
 
   const sha256Checksum =
-    "CFAF580987FB3927CA12E62B18E5293CA529A79CA5C39469C244FB8F577D1048";
+    "95977A29F269BE082D61A30DD33EB4F3B4E5465B7E2B0565DF49FCF8603055AD";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(sha256Checksum).then(() => {
@@ -24,40 +24,52 @@ export default function ReleaseNotesPage() {
 
   const highlights = [
     {
-      title: isOdia ? "୧୫୮ଟି CMRF ଆଶ୍ରୟସ୍ଥଳୀ API ଓ ଅଫଲାଇନ୍ କ୍ୟାଶିଂ" : "158 CMRF Shelter Directory with Offline Caching",
+      title: isOdia ? "ଉନ୍ନତ ପ୍ରଡକ୍ସନ୍ ଡିଭାଇସ୍ ପଞ୍ଜୀକରଣ" : "Improved Production Device Registration",
       desc: isOdia
-        ? "ମୁଖ୍ୟମନ୍ତ୍ରୀ ରିଲିଫ୍ ପାଣ୍ଠି ଆଶ୍ରୟସ୍ଥଳୀ ତାଲିକା ପ୍ରଡକ୍ସନ୍ API ରୁ ଡାଉନଲୋଡ୍ ହୋଇ ସ୍ଥାନୀୟ ଏନକ୍ରିପ୍ଟ ହୋଇଥିବା SQLite ଡାଟାବେସରେ କ୍ୟାଶ୍ ରହେ (ପ୍ରଶାସନିକ କେନ୍ଦ୍ରବିନ୍ଦୁ, Status Unknown)।"
-        : "Chief Minister's Relief Fund disaster shelters fetched from the production API and cached in local encrypted storage. Displays administrative centroid coordinates with UNKNOWN operational readiness (not pre-bundled on a fresh offline install).",
+        ? "ଆଣ୍ଡ୍ରଏଡ୍ ଡିଭାଇସ୍ ପଞ୍ଜୀକରଣ ଏବଂ ପ୍ରଡକ୍ସନ୍ ବ୍ୟାକଏଣ୍ଡ୍ ସହ ସଂଯୋଗ ପ୍ରକ୍ରିୟାରେ ଉନ୍ନତି।"
+        : "Streamlined production device registration flow for reliable onboarding and session initialization.",
     },
     {
-      title: isOdia ? "ସମ୍ପୂର୍ଣ୍ଣ ଓଡ଼ିଆ ଏବଂ ଇଂରାଜୀ ଭାଷା ବିକଳ୍ପ" : "Bilingual Odia & English Persistence",
+      title: isOdia ? "ବ୍ୟକ୍ତିଗତ Google Maps ଆଶ୍ରୟସ୍ଥଳୀ ସନ୍ଧାନ" : "Individual Google Maps Shelter Search",
       desc: isOdia
-        ? "ଶୁଦ୍ଧ ଓଡ଼ିଆ ଅକ୍ଷର (Noto Sans Oriya) ଏବଂ ସ୍ଥାୟୀ ଭାଷା ପସନ୍ଦ ନିୟନ୍ତ୍ରଣ।"
-        : "Full bilingual localization across all screens with instant toggling and persistent local preference storage.",
+        ? "ପ୍ରତ୍ୟେକ ଆଶ୍ରୟସ୍ଥଳୀକୁ ସ୍ୱତନ୍ତ୍ର ଭାବେ Google Maps ରେ ଖୋଜିବା ସୁବିଧା (ଆଶ୍ରୟସ୍ଥଳୀ ଅବସ୍ଥାନ ଆନୁମାନିକ ହୋଇପାରେ ଏବଂ ସ୍ୱତନ୍ତ୍ର ଯାଞ୍ଚ ଆବଶ୍ୟକ)।"
+        : "Open and search individual shelter listings directly in Google Maps; shelter locations may be approximate and require independent verification.",
     },
     {
-      title: isOdia ? "କେବଳ ଆଗଭୂମି ଅବସ୍ଥାନ ନିୟନ୍ତ୍ରଣ" : "Foreground-Only Location Onboarding",
+      title: isOdia ? "ସୁଦୃଢ଼ API ସୁରକ୍ଷା ଓ ରେଟ୍ ଲିମିଟିଂ" : "Enhanced API Security & Rate Limiting",
       desc: isOdia
-        ? "ନାଗରିକଙ୍କ ସୁରକ୍ଷା ପାଇଁ ଶୂନ ବ୍ୟାକଗ୍ରାଉଣ୍ଡ ଟ୍ରାକିଂ ସହ ସ୍ପଷ୍ଟ ସୂଚନା।"
-        : "Transparent privacy onboarding clarifying that GPS access is strictly foreground and never runs continuously in the background.",
+        ? "ଅପବ୍ୟବହାର ରୋକିବା ଏବଂ ସେବା ସ୍ଥିରତା ବଜାୟ ରଖିବା ପାଇଁ ଉନ୍ନତ API ସୁରକ୍ଷା ଓ ରେଟ୍ ଲିମିଟିଂ।"
+        : "Strengthened backend API security protections and request rate limiting across public and pilot endpoints.",
     },
     {
-      title: isOdia ? "ଅଫଲାଇନ୍ ବିପର୍ଯ୍ୟୟ ସୁରକ୍ଷା ନିର୍ଦ୍ଦେଶାବଳୀ" : "Offline OSDMA Disaster Safety Guides",
+      title: isOdia ? "Incident Reporting ଓ Quiet Help SOS ପାଇଁ ସ୍ପଷ୍ଟ ସମ୍ମତି" : "Explicit Research Exercise Consent",
       desc: isOdia
-        ? "ବାତ୍ୟା, ବନ୍ୟା, ବଜ୍ରପାତ ଓ ଅଂଶୁଘାତ ପାଇଁ OSDMA ସୁରକ୍ଷା ନିୟମାବଳୀ ବିନା ଇଣ୍ଟରନେଟରେ ଉପଲବ୍ଧ।"
-        : "Emergency checklists for Cyclone, Flood, Lightning, and Heat Waves embedded locally for instant readability during zero-connectivity blackouts.",
+        ? "Incident Reporting ଏବଂ Quiet Help SOS ବ୍ୟବହାର ପୂର୍ବରୁ ସ୍ପଷ୍ଟ ଗବେଷଣା ଅଭ୍ୟାସ ସମ୍ମତି। ଜରୁରୀକାଳୀନ ଦାଖଲ ସରକାରୀ ଉଦ୍ଧାରକାରୀଙ୍କ ଦ୍ୱାରା ତଦାରଖ ହୁଏ ନାହିଁ; ଜରୁରୀ ସ୍ଥିତିରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।"
+        : "Explicit research exercise consent prompts for Incident Reporting and Quiet Help SOS, clarifying that submissions are not monitored by official responders (dial 112 for emergencies).",
     },
     {
-      title: isOdia ? "ସ୍ଥାନୀୟ ଏନକ୍ରିପ୍ଟ ହୋଇଥିବା ରିପୋର୍ଟ ଷ୍ଟୋରେଜ୍" : "Encrypted Local Report Storage",
+      title: isOdia ? "ସର୍ଭର-ସାଇଡ୍ ଓ ସ୍ଥାନୀୟ ଡାଟା ବିଲୋପ ନିୟନ୍ତ୍ରଣ" : "Citizen Server-Side & Local Data Deletion Controls",
       desc: isOdia
-        ? "ନାଗରିକଙ୍କ ନିରୀକ୍ଷଣ କେବଳ ଫୋନର ଏନକ୍ରିପ୍ଟ ହୋଇଥିବା SQLite ଡାଟାବେସରେ ସୁରକ୍ଷିତ ରହେ। ଗବେଷଣା ପାଇଲଟରେ କ୍ଲାଉଡ୍ ପ୍ରେରଣ ନିଷ୍କ୍ରିୟ ରହିଛି।"
-        : "Store-and-record capability allowing citizens to log observations safely on-device in an encrypted SQLite database. Cloud submission and background sync remain disabled during this research pilot.",
+        ? "ନାଗରିକମାନେ ନିଜ ଫୋନର ସ୍ଥାନୀୟ SQLite ଡାଟା ସହିତ ସର୍ଭର-ସାଇଡ୍ ଡାଟା ମଧ୍ୟ ବିଲୋପ କରିପାରିବେ।"
+        : "Empowering citizens with direct controls to delete both local on-device records and server-side pilot data.",
     },
     {
-      title: isOdia ? "IMD RSMC ଓ NDMA ସତର୍କତା ବୁଲେଟିନ୍" : "IMD RSMC & NDMA Alert Feed Parser",
+      title: isOdia ? "ଉନ୍ନତ ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା ବ୍ୟବସ୍ଥା" : "Improved Privacy & Security Protections",
       desc: isOdia
-        ? "ପାଣିପାଗ ବିଭାଗରୁ ପ୍ରତ୍ୟକ୍ଷ ସତର୍କତା ଓ ସ୍ୱଚ୍ଛ ସମୟ ଯାଞ୍ଚ।"
-        : "Automated ingestion and verification timestamps for official IMD weather warnings and NDMA SACHET public bulletins.",
+        ? "ଡାଟା ସୁରକ୍ଷା, ଆଗଭୂମି-ମାତ୍ର ଅବସ୍ଥାନ ନିୟନ୍ତ୍ରଣ ଏବଂ ଏନକ୍ରିପ୍ଟ ହୋଇଥିବା ଷ୍ଟୋରେଜରେ ଅଧିକ ଉନ୍ନତି।"
+        : "Hardened privacy guardrails, data protection controls, and secure handling across citizen workflows.",
+    },
+    {
+      title: isOdia ? "ନମନୀୟ ଗବେଷଣା ପରୀକ୍ଷକ ଅଂଶଗ୍ରହଣ" : "Flexible Research Tester Participation",
+      desc: isOdia
+        ? "ଗବେଷଣା ବିଟା ପରୀକ୍ଷକମାନଙ୍କ ପାଇଁ ସହଜ ଓ ନମନୀୟ ଅଂଶଗ୍ରହଣ ଏବଂ ପ୍ରତ୍ୟାହାର ସୁବିଧା।"
+        : "More flexible participation workflows for Research Beta testers evaluating the platform.",
+    },
+    {
+      title: isOdia ? "ଉନ୍ନତ କ୍ଲାଉଡ୍ ସଂଯୋଗ ଓ ବିଶ୍ୱସନୀୟତା" : "Improved Cloud Connectivity & Reliability",
+      desc: isOdia
+        ? "ପାଣିପାଗ, ବୁଲେଟିନ୍ ଓ ଆଶ୍ରୟସ୍ଥଳୀ ତଥ୍ୟ ଆଣିବାରେ ଅଧିକ ସ୍ଥିର କ୍ଲାଉଡ୍ ସଂଯୋଗ ଓ ଆପ୍ ବିଶ୍ୱସନୀୟତା।"
+        : "Improved cloud API connectivity, error recovery, and overall application reliability.",
     },
   ];
 
@@ -86,28 +98,28 @@ export default function ReleaseNotesPage() {
 
           <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-4 mb-4">
             <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#8B3028] tracking-tight">
-              JanaKavach v1.0.3
+              JanaKavach v1.0.9
             </h1>
             <span className="font-mono text-xs bg-[#E3A84B]/20 text-[#8B3028] font-bold px-3 py-1 rounded-full w-fit">
-              Build 6 (Universal)
+              Build 12 (Research Beta)
             </span>
           </div>
 
           <p className="text-sm sm:text-base text-[#4A5568] leading-relaxed">
             {isOdia
-              ? "ଓଡ଼ିଶା AI ହାକାଥନ୍ ପାଇଁ ସ୍ଥାୟୀ RSA-4096 କ୍ରିପ୍ଟୋଗ୍ରାଫିକ୍ କିଷ୍ଟୋର ଦ୍ୱାରା ସ୍ୱାକ୍ଷରିତ ଏବଂ ୩୮୧ଟି ସ୍ୱୟଂଚାଳିତ ପରୀକ୍ଷାରେ ଯାଞ୍ଚ ହୋଇଥିବା ସାର୍ବଜନୀନ ରିଲିଜ୍।"
-              : "Official universal release for the Odisha AI Hackathon research pilot. Permanent RSA-4096 release signing verified, validated against 381 automated Flutter tests."}
+              ? "ଓଡ଼ିଶା ପାଇଁ ସ୍ୱତନ୍ତ୍ର ଛାତ୍ର ଗବେଷଣା ପ୍ରକଳ୍ପ (Research Beta) ରିଲିଜ୍। ଯାଞ୍ଚ ହୋଇଥିବା RSA 4096-bit କ୍ରିପ୍ଟୋଗ୍ରାଫିକ୍ କିଷ୍ଟୋର ଦ୍ୱାରା ସ୍ୱାକ୍ଷରିତ।"
+              : "Research Beta Android release for JanaKavach (AI for a Safer and Smarter Odisha). Signed with Verified RSA 4096-bit release key. Independent student research project — for genuine emergencies, dial 112."}
           </p>
 
           {/* Quick Specs */}
           <div className="mt-8 pt-8 border-t border-[#E8DFC9] grid grid-cols-2 sm:grid-cols-5 gap-4 text-xs">
             <div>
               <span className="text-[#718096] uppercase font-bold text-[10px] block">Size</span>
-              <span className="font-semibold text-[#1E2522]">59.8 MB</span>
+              <span className="font-semibold text-[#1E2522]">65.5 MB</span>
             </div>
             <div>
               <span className="text-[#718096] uppercase font-bold text-[10px] block">Signing Key</span>
-              <span className="font-semibold text-[#17655B]">Permanent RSA-4096</span>
+              <span className="font-semibold text-[#17655B]">Verified RSA 4096-bit</span>
             </div>
             <div>
               <span className="text-[#718096] uppercase font-bold text-[10px] block">Min Android</span>
@@ -118,8 +130,8 @@ export default function ReleaseNotesPage() {
               <span className="font-semibold text-[#1E2522]">Android 16 (API 36)</span>
             </div>
             <div>
-              <span className="text-[#718096] uppercase font-bold text-[10px] block">Test Suite</span>
-              <span className="font-semibold text-[#17655B]">381 Tests Passed</span>
+              <span className="text-[#718096] uppercase font-bold text-[10px] block">Channel</span>
+              <span className="font-semibold text-[#17655B]">Research Beta</span>
             </div>
           </div>
         </div>

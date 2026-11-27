@@ -30,7 +30,7 @@ export function DownloadSection() {
   const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
 
   const sha256Checksum =
-    "CFAF580987FB3927CA12E62B18E5293CA529A79CA5C39469C244FB8F577D1048";
+    "95977A29F269BE082D61A30DD33EB4F3B4E5465B7E2B0565DF49FCF8603055AD";
 
   // Generate QR Code ONLY from the configured deployment URL or verified window origin
   useEffect(() => {
@@ -39,21 +39,19 @@ export function DownloadSection() {
       targetUrl = window.location.origin;
     }
 
-    if (targetUrl) {
-      QRCode.toString(targetUrl, {
-        type: "svg",
-        margin: 1,
-        width: 110,
-        color: {
-          dark: "#1E2522",
-          light: "#FFFFFF",
-        },
-      })
-        .then((svgString) => setQrSvg(svgString))
-        .catch((err) => console.error("QR Code error:", err));
-    } else {
-      setQrSvg("");
-    }
+    if (!targetUrl) return;
+
+    QRCode.toString(targetUrl, {
+      type: "svg",
+      margin: 1,
+      width: 110,
+      color: {
+        dark: "#1E2522",
+        light: "#FFFFFF",
+      },
+    })
+      .then((svgString) => setQrSvg(svgString))
+      .catch((err) => console.error("QR Code error:", err));
   }, [configuredSiteUrl]);
 
   const handleCopy = () => {
@@ -86,17 +84,17 @@ export function DownloadSection() {
             <div>
               <div className="flex items-center gap-3">
                 <span className="text-2xl font-serif font-bold text-[#1E2522]">
-                  JanaKavach Universal APK
+                  JanaKavach Android APK
                 </span>
                 <span className="bg-[#17655B] text-white text-xs font-mono font-bold px-2 py-0.5 rounded">
                   v{t.download.version}
                 </span>
                 <span className="bg-[#E3A84B]/20 text-[#8B3028] text-xs font-mono font-bold px-2 py-0.5 rounded">
-                  Build {t.download.build}
+                  Build {t.download.build} • Research Beta
                 </span>
               </div>
               <p className="text-xs text-[#718096] mt-1 font-mono">
-                Filename: JanaKavach-v1.0.3-universal.apk (~{t.download.size})
+                Filename: JanaKavach-v1.0.9.apk ({t.download.size})
               </p>
             </div>
 
@@ -105,7 +103,7 @@ export function DownloadSection() {
               {apkUrl ? (
                 <a
                   href={apkUrl}
-                  download="JanaKavach-v1.0.3-universal.apk"
+                  download="JanaKavach-v1.0.9.apk"
                   className="w-full md:w-auto inline-flex items-center justify-center gap-2.5 bg-[#8B3028] hover:bg-[#6E221B] text-[#F7F1E5] font-semibold text-sm px-6 py-3.5 rounded-xl transition-all shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8B3028]"
                 >
                   <Download className="w-4 h-4" aria-hidden="true" />
