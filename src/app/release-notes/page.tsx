@@ -13,7 +13,7 @@ export default function ReleaseNotesPage() {
   const [copied, setCopied] = useState(false);
 
   const sha256Checksum =
-    "95977A29F269BE082D61A30DD33EB4F3B4E5465B7E2B0565DF49FCF8603055AD";
+    "8B69D5317D5F3942ED0C713D4CC325EBCEF4B7B4C7AF9554D99452DF6F1D2503";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(sha256Checksum).then(() => {
@@ -24,52 +24,52 @@ export default function ReleaseNotesPage() {
 
   const highlights = [
     {
-      title: isOdia ? "ଉନ୍ନତ ପ୍ରଡକ୍ସନ୍ ଡିଭାଇସ୍ ପଞ୍ଜୀକରଣ" : "Improved Production Device Registration",
+      title: isOdia ? "Hazard Watch ସିଙ୍କ୍ରୋନାଇଜେସନ୍ ସମାଧାନ" : "Fixed Hazard Watch Synchronization",
       desc: isOdia
-        ? "ଆଣ୍ଡ୍ରଏଡ୍ ଡିଭାଇସ୍ ପଞ୍ଜୀକରଣ ଏବଂ ପ୍ରଡକ୍ସନ୍ ବ୍ୟାକଏଣ୍ଡ୍ ସହ ସଂଯୋଗ ପ୍ରକ୍ରିୟାରେ ଉନ୍ନତି।"
-        : "Streamlined production device registration flow for reliable onboarding and session initialization.",
+        ? "ଭିତ୍ତିଭୂମି ବିପଦ ରିପୋର୍ଟ ସିଙ୍କ୍ରୋନାଇଜେସନ୍ ତ୍ରୁଟିର ସମାଧାନ କରି ପ୍ରଡକ୍ସନ୍ API ସହ ସଠିକ୍ ସଂଯୋଗ ସୁନିଶ୍ଚିତ କରାଯାଇଛି।"
+        : "Resolved Hazard Watch outbox synchronization so consented public infrastructure hazard reports transmit reliably to the production backend.",
     },
     {
-      title: isOdia ? "ବ୍ୟକ୍ତିଗତ Google Maps ଆଶ୍ରୟସ୍ଥଳୀ ସନ୍ଧାନ" : "Individual Google Maps Shelter Search",
+      title: isOdia ? "Hazard Watch ପାଇଁ ସ୍ପଷ୍ଟ ଗବେଷଣା ସମ୍ମତି" : "Explicit Hazard Watch Research Exercise Consent",
       desc: isOdia
-        ? "ପ୍ରତ୍ୟେକ ଆଶ୍ରୟସ୍ଥଳୀକୁ ସ୍ୱତନ୍ତ୍ର ଭାବେ Google Maps ରେ ଖୋଜିବା ସୁବିଧା (ଆଶ୍ରୟସ୍ଥଳୀ ଅବସ୍ଥାନ ଆନୁମାନିକ ହୋଇପାରେ ଏବଂ ସ୍ୱତନ୍ତ୍ର ଯାଞ୍ଚ ଆବଶ୍ୟକ)।"
-        : "Open and search individual shelter listings directly in Google Maps; shelter locations may be approximate and require independent verification.",
+        ? "Hazard Watch ରିପୋର୍ଟ ଦାଖଲ ପୂର୍ବରୁ ସ୍ପଷ୍ଟ ଗବେଷଣା ଅଭ୍ୟାସ ସମ୍ମତି ଏବଂ DEMO_SYNTHETIC ଉତ୍ସ ଯୋଗ କରାଯାଇଛି।"
+        : "Added explicit research exercise consent and DEMO_SYNTHETIC provenance on Hazard Watch submissions (dial 112 for genuine emergencies).",
     },
     {
-      title: isOdia ? "ସୁଦୃଢ଼ API ସୁରକ୍ଷା ଓ ରେଟ୍ ଲିମିଟିଂ" : "Enhanced API Security & Rate Limiting",
+      title: isOdia ? "ସଠିକ୍ ସଂଯୋଗ ତ୍ରୁଟି ସୂଚନା" : "Corrected Misleading Connectivity Error Messages",
       desc: isOdia
-        ? "ଅପବ୍ୟବହାର ରୋକିବା ଏବଂ ସେବା ସ୍ଥିରତା ବଜାୟ ରଖିବା ପାଇଁ ଉନ୍ନତ API ସୁରକ୍ଷା ଓ ରେଟ୍ ଲିମିଟିଂ।"
-        : "Strengthened backend API security protections and request rate limiting across public and pilot endpoints.",
+        ? "HTTP 403 ସମ୍ମତି ବା ଅନୁମତି ତ୍ରୁଟିକୁ 'ସର୍ଭିସ୍ ଅପହଞ୍ଚ' ବଦଳରେ ସଠିକ୍ ତ୍ରୁଟି ସୂଚନା ଭାବରେ ଦର୍ଶାଯାଇଛି।"
+        : "Fixed outbox error classification so HTTP 403 consent/authorization responses no longer display misleading 'service unreachable' statuses.",
     },
     {
-      title: isOdia ? "Incident Reporting ଓ Quiet Help SOS ପାଇଁ ସ୍ପଷ୍ଟ ସମ୍ମତି" : "Explicit Research Exercise Consent",
+      title: isOdia ? "ପୃଥକ୍ Incident ଓ Hazard Watch ଇଣ୍ଟରଫେସ୍" : "Separated Incident Management & Hazard Watch Interfaces",
       desc: isOdia
-        ? "Incident Reporting ଏବଂ Quiet Help SOS ବ୍ୟବହାର ପୂର୍ବରୁ ସ୍ପଷ୍ଟ ଗବେଷଣା ଅଭ୍ୟାସ ସମ୍ମତି। ଜରୁରୀକାଳୀନ ଦାଖଲ ସରକାରୀ ଉଦ୍ଧାରକାରୀଙ୍କ ଦ୍ୱାରା ତଦାରଖ ହୁଏ ନାହିଁ; ଜରୁରୀ ସ୍ଥିତିରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ।"
-        : "Explicit research exercise consent prompts for Incident Reporting and Quiet Help SOS, clarifying that submissions are not monitored by official responders (dial 112 for emergencies).",
+        ? "ଜରୁରୀକାଳୀନ ଘଟଣା ପରିଚାଳନା ଏବଂ ସାର୍ବଜନୀନ ଭିତ୍ତିଭୂମି ବିପଦ ନିରୀକ୍ଷଣକୁ ପୃଥକ୍ ଧାଡ଼ି ଓ ଶବ୍ଦାବଳୀରେ ବିଭକ୍ତ କରାଯାଇଛି।"
+        : "Separated Emergency Incident Management and Public Works Hazard Watch into independent queues, domain filters, and tailored assessment terminology.",
     },
     {
-      title: isOdia ? "ସର୍ଭର-ସାଇଡ୍ ଓ ସ୍ଥାନୀୟ ଡାଟା ବିଲୋପ ନିୟନ୍ତ୍ରଣ" : "Citizen Server-Side & Local Data Deletion Controls",
+      title: isOdia ? "ସ୍ୱତନ୍ତ୍ର Hazard Report Details ପୃଷ୍ଠା" : "Dedicated Hazard Report Details Page",
       desc: isOdia
-        ? "ନାଗରିକମାନେ ନିଜ ଫୋନର ସ୍ଥାନୀୟ SQLite ଡାଟା ସହିତ ସର୍ଭର-ସାଇଡ୍ ଡାଟା ମଧ୍ୟ ବିଲୋପ କରିପାରିବେ।"
-        : "Empowering citizens with direct controls to delete both local on-device records and server-side pilot data.",
+        ? "ଭିତ୍ତିଭୂମି ବିପଦ ରିପୋର୍ଟଗୁଡ଼ିକର ସମୀକ୍ଷା ଓ ଅଡିଟ୍ ଟ୍ରେଲ୍ ପାଇଁ ସ୍ୱତନ୍ତ୍ର /dashboard/hazard-watch/[id] ପୃଷ୍ଠା ଯୋଗ କରାଯାଇଛି।"
+        : "Added a dedicated Hazard Report Details route with domain validation, infrastructure risk assessment, status history, and cryptographic audit trail.",
     },
     {
-      title: isOdia ? "ଉନ୍ନତ ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା ବ୍ୟବସ୍ଥା" : "Improved Privacy & Security Protections",
+      title: isOdia ? "Incidents, SOS ଓ Hazards ପାଇଁ Research Exercises ଫିଲ୍ଟର୍" : "Research Exercises Filters Across Queues",
       desc: isOdia
-        ? "ଡାଟା ସୁରକ୍ଷା, ଆଗଭୂମି-ମାତ୍ର ଅବସ୍ଥାନ ନିୟନ୍ତ୍ରଣ ଏବଂ ଏନକ୍ରିପ୍ଟ ହୋଇଥିବା ଷ୍ଟୋରେଜରେ ଅଧିକ ଉନ୍ନତି।"
-        : "Hardened privacy guardrails, data protection controls, and secure handling across citizen workflows.",
+        ? "Incident, Quiet Help SOS ଏବଂ Hazard Watch ଧାଡ଼ିରେ ପ୍ରକୃତ ଜରୁରୀ ଓ ଗବେଷଣା ରିପୋର୍ଟକୁ ପୃଥକ୍ ରଖିବା ପାଇଁ ଫିଲ୍ଟର୍।"
+        : "Added Operational vs. Research Exercises filters and provenance badges across Incident, Quiet Help SOS, and Hazard Watch queues.",
     },
     {
-      title: isOdia ? "ନମନୀୟ ଗବେଷଣା ପରୀକ୍ଷକ ଅଂଶଗ୍ରହଣ" : "Flexible Research Tester Participation",
+      title: isOdia ? "ଭୂମିକା-ଆଧାରିତ ଅନୁମତି ନିୟନ୍ତ୍ରଣ" : "Permission-Aware Controls (Viewer, Officer, Lead)",
       desc: isOdia
-        ? "ଗବେଷଣା ବିଟା ପରୀକ୍ଷକମାନଙ୍କ ପାଇଁ ସହଜ ଓ ନମନୀୟ ଅଂଶଗ୍ରହଣ ଏବଂ ପ୍ରତ୍ୟାହାର ସୁବିଧା।"
-        : "More flexible participation workflows for Research Beta testers evaluating the platform.",
+        ? "PILOT_VIEWER ଆକାଉଣ୍ଟ ପାଇଁ ସଂଶୋଧନ ବଟନ୍ ନିଷ୍କ୍ରିୟ କରି PILOT_OFFICER ଓ PILOT_LEAD ପାଇଁ ଅନୁମୋଦିତ କାର୍ଯ୍ୟ ସୁରକ୍ଷିତ ରଖାଯାଇଛି।"
+        : "Enforced role-aware UI controls disabling mutations for PILOT_VIEWER accounts while preserving authorized actions for PILOT_OFFICER and PILOT_LEAD.",
     },
     {
-      title: isOdia ? "ଉନ୍ନତ କ୍ଲାଉଡ୍ ସଂଯୋଗ ଓ ବିଶ୍ୱସନୀୟତା" : "Improved Cloud Connectivity & Reliability",
+      title: isOdia ? "Google Maps ଆଶ୍ରୟସ୍ଥଳୀ ସନ୍ଧାନ ଓ ସ୍ଥିରତା" : "Preserved Google Maps Shelter Search & Functionality",
       desc: isOdia
-        ? "ପାଣିପାଗ, ବୁଲେଟିନ୍ ଓ ଆଶ୍ରୟସ୍ଥଳୀ ତଥ୍ୟ ଆଣିବାରେ ଅଧିକ ସ୍ଥିର କ୍ଲାଉଡ୍ ସଂଯୋଗ ଓ ଆପ୍ ବିଶ୍ୱସନୀୟତା।"
-        : "Improved cloud API connectivity, error recovery, and overall application reliability.",
+        ? "ବ୍ୟକ୍ତିଗତ Google Maps ଆଶ୍ରୟସ୍ଥଳୀ ସନ୍ଧାନ, ଅଫଲାଇନ୍ ସୁରକ୍ଷା ନିର୍ଦ୍ଦେଶାବଳୀ, WeatherAPI ଏବଂ ନାଗରିକ ଡାଟା ବିଲୋପ ସୁରକ୍ଷିତ ରହିଛି।"
+        : "Preserved individual Google Maps shelter search, offline safety guides, WeatherAPI integration, and citizen deletion controls (538/538 Flutter tests passed, 0 analyzer issues, 55 dashboard routes built, APK signature verified).",
     },
   ];
 
@@ -98,17 +98,17 @@ export default function ReleaseNotesPage() {
 
           <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-4 mb-4">
             <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#8B3028] tracking-tight">
-              JanaKavach v1.0.9
+              JanaKavach v1.0.10
             </h1>
             <span className="font-mono text-xs bg-[#E3A84B]/20 text-[#8B3028] font-bold px-3 py-1 rounded-full w-fit">
-              Build 12 (Research Beta)
+              Build 13 (Research Beta)
             </span>
           </div>
 
           <p className="text-sm sm:text-base text-[#4A5568] leading-relaxed">
             {isOdia
-              ? "ଓଡ଼ିଶା ପାଇଁ ସ୍ୱତନ୍ତ୍ର ଛାତ୍ର ଗବେଷଣା ପ୍ରକଳ୍ପ (Research Beta) ରିଲିଜ୍। ଯାଞ୍ଚ ହୋଇଥିବା RSA 4096-bit କ୍ରିପ୍ଟୋଗ୍ରାଫିକ୍ କିଷ୍ଟୋର ଦ୍ୱାରା ସ୍ୱାକ୍ଷରିତ।"
-              : "Research Beta Android release for JanaKavach (AI for a Safer and Smarter Odisha). Signed with Verified RSA 4096-bit release key. Independent student research project — for genuine emergencies, dial 112."}
+              ? "ଓଡ଼ିଶା ପାଇଁ ସ୍ୱତନ୍ତ୍ର ଛାତ୍ର ଗବେଷଣା ପ୍ରକଳ୍ପ (Research Beta) ରିଲିଜ୍। ୫୩୮/୫୩୮ ଫ୍ଲଟର୍ ପରୀକ୍ଷା ଉତ୍ତୀର୍ଣ୍ଣ, ୦ ଆନାଲାଇଜର୍ ତ୍ରୁଟି, ୫୫ଟି ଡ୍ୟାସବୋର୍ଡ ରୁଟ୍ ନିର୍ମିତ ଏବଂ ଯାଞ୍ଚ ହୋଇଥିବା RSA 4096-bit ଦ୍ୱାରା ସ୍ୱାକ୍ଷରିତ।"
+              : "Research Beta Android release for JanaKavach (AI for a Safer and Smarter Odisha). Verified: 538/538 Flutter tests passed, 0 analyzer issues, 55 officer dashboard routes built, and Verified RSA 4096-bit APK signature. Independent student research project — dial 112 for emergencies."}
           </p>
 
           {/* Quick Specs */}

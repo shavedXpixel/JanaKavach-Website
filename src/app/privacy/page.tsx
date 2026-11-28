@@ -45,7 +45,7 @@ export default function PrivacyPage() {
           </p>
 
           <div className="mt-6 pt-6 border-t border-[#E8DFC9] flex flex-wrap items-center gap-4 text-xs text-[#718096]">
-            <span>Version: 1.0.9 (Research Beta)</span>
+            <span>Version: 1.0.10 (Research Beta)</span>
             <span>•</span>
             <span>Effective: November 2026</span>
             <span>•</span>

@@ -225,9 +225,9 @@ export const translations: Record<Language, TranslationDictionary> = {
         "An offline-first disaster preparedness and governance research platform designed around the needs of Odisha's coastal, riverine, and rural communities.",
       downloadCta: "Download for Android",
       exploreCta: "Explore JanaKavach",
-      releaseLabel: "v1.0.9 Research Beta",
+      releaseLabel: "v1.0.10 Research Beta",
       platformLabel: "Android 7.0+ (API 24 to 36)",
-      testsPassed: "381 Automated Tests Passed",
+      testsPassed: "538 Automated Tests Passed",
       verifiedSigning: "Verified RSA 4096-bit",
       heroCardTitle: "Khordha (Bhubaneswar)",
       heroCardStatus: "Service Reachable • Normal Status",
@@ -271,7 +271,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "Strictly Implemented Capabilities",
       subtitle:
         "JanaKavach does not make exaggerated promises. Every feature listed here is verified in production code and tested across 381 automated test suites.",
-      implementedTitle: "Active Features in v1.0.9",
+      implementedTitle: "Active Features in v1.0.10",
       roadmapTitle: "Explicit Boundary: What is NOT Implemented",
       items: [
         {
@@ -376,7 +376,7 @@ export const translations: Record<Language, TranslationDictionary> = {
           level: "L2 — SMS Fallback (Roadmap)",
           condition: "No mobile data, cellular radio channel active",
           channel: "Roadmap Concept — Not Implemented",
-          experience: "Future architectural concept for compact SMS relay; strictly not implemented or active in v1.0.9.",
+          experience: "Future architectural concept for compact SMS relay; strictly not implemented or active in v1.0.10.",
           isRoadmap: true,
         },
         {
@@ -399,7 +399,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "Authentic Mobile Application Screens",
       subtitle:
         "Direct captures from the installed JanaKavach Android build running on hardware. Precise location coordinates have been redacted for privacy. No simulated dashboards.",
-      realAppNotice: "Authentic Android App Screenshots • Build 12 (Research Beta)",
+      realAppNotice: "Authentic Android App Screenshots • Build 13 (Research Beta)",
       items: [
         {
           id: "home-weather",
@@ -482,8 +482,8 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "Download JanaKavach for Android",
       subtitle:
         "Android APK package signed with a Verified RSA 4096-bit cryptographic keystore for the Research Beta channel.",
-      version: "1.0.9",
-      build: "12",
+      version: "1.0.10",
+      build: "13",
       size: "65.5 MB",
       minAndroid: "Android 7.0 (Nougat, API 24)",
       targetSdk: "Android 16 (API 36)",
@@ -492,17 +492,17 @@ export const translations: Record<Language, TranslationDictionary> = {
       checksumLabel: "SHA-256 Checksum",
       copyChecksum: "Copy Checksum",
       copied: "Copied to Clipboard",
-      downloadBtn: "Download Research Beta APK (v1.0.9)",
+      downloadBtn: "Download Research Beta APK (v1.0.10)",
       unconfiguredBtn: "Research Beta — Restricted Access",
       unconfiguredDesc:
-        "Unrestricted APK downloads remain disabled until dataset redistribution clearance is established. Authorized testers may inspect release v1.0.9 at github.com/shavedXpixel/JanaKavach-Releases/releases/tag/v1.0.9.",
+        "Unrestricted APK downloads remain disabled until dataset redistribution clearance is established. Authorized testers may inspect release v1.0.10 at github.com/shavedXpixel/JanaKavach-Releases/releases/tag/v1.0.10.",
       releaseNotesLink: "View Detailed Release Notes",
       scanQr: "Scan Deployment QR Code",
       qrDescription: "Scan this QR code with your phone camera to open this deployment page on mobile.",
       qrUnconfigured: "QR code available when NEXT_PUBLIC_SITE_URL is configured.",
       pilotTesterNoticeTitle: "Research Beta Access Notice",
       pilotTesterNoticeDesc:
-        "JanaKavach v1.0.9 is distributed via the Research Beta channel on GitHub Releases (github.com/shavedXpixel/JanaKavach-Releases/releases). Unrestricted public downloads remain gated until dataset redistribution clearance is established.",
+        "JanaKavach v1.0.10 is distributed via the Research Beta channel on GitHub Releases (github.com/shavedXpixel/JanaKavach-Releases/releases). Unrestricted public downloads remain gated until dataset redistribution clearance is established.",
       downloadDisclaimer:
         "Research Disclaimer: JanaKavach is an independent student research project, not an official government emergency response service. Emergency submissions are not monitored by official responders. For genuine emergencies, dial 112. Shelter locations may be approximate and require independent verification.",
     },
@@ -515,7 +515,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         {
           number: "01",
           title: "Download the APK",
-          desc: "Tap the download button above to save 'JanaKavach-v1.0.9.apk' to your phone's Downloads directory.",
+          desc: "Tap the download button above to save 'JanaKavach-v1.0.10.apk' to your phone's Downloads directory.",
         },
         {
           number: "02",
@@ -603,7 +603,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         officerPortal: "Officer Cockpit",
         privacy: "Privacy Policy",
         disclaimer: "Pilot Disclaimer",
-        releaseNotes: "Release Notes v1.0.9",
+        releaseNotes: "Release Notes v1.0.10",
       },
       allRightsReserved: "JanaKavach Research Prototype • Open Source & Community Resilience",
     },
@@ -636,9 +636,9 @@ export const translations: Record<Language, TranslationDictionary> = {
         "ଓଡ଼ିଶାର ଉପକୂଳ, ନଦୀକୂଳ ଓ ଗ୍ରାମାଞ୍ଚଳର ଜନସାଧାରଣଙ୍କ ପ୍ରକୃତ ଆବଶ୍ୟକତାକୁ ନଜରରେ ରଖି ପ୍ରସ୍ତୁତ ଏକ ଅଫଲାଇନ୍-ପ୍ରାଥମିକ ବିପର୍ଯ୍ୟୟ ପ୍ରସ୍ତୁତି ଓ ଶାସନ ଗବେଷଣା ମଞ୍ଚ।",
       downloadCta: "ଆଣ୍ଡ୍ରଏଡ୍ ପାଇଁ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
       exploreCta: "ଜନକବଚ ବିଷୟରେ ଜାଣନ୍ତୁ",
-      releaseLabel: "v1.0.9 ଗବେଷଣା ବିଟା",
+      releaseLabel: "v1.0.10 ଗବେଷଣା ବିଟା",
       platformLabel: "ଆଣ୍ଡ୍ରଏଡ୍ ୭.୦+ (API ୨୪ ରୁ ୩୬)",
-      testsPassed: "୩୮୧ଟି ସ୍ୱୟଂଚାଳିତ ପରୀକ୍ଷା ଉତ୍ତୀର୍ଣ୍ଣ",
+      testsPassed: "୫୩୮ଟି ସ୍ୱୟଂଚାଳିତ ପରୀକ୍ଷା ଉତ୍ତୀର୍ଣ୍ଣ",
       verifiedSigning: "ଯାଞ୍ଚ ହୋଇଥିବା RSA 4096-bit",
       heroCardTitle: "ଖୋର୍ଦ୍ଧା (ଭୁବନେଶ୍ୱର)",
       heroCardStatus: "ସର୍ଭିସ୍ ସକ୍ରିୟ • ସ୍ୱାଭାବିକ ସ୍ଥିତି",
@@ -682,7 +682,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "ପ୍ରକୃତରେ ପ୍ରସ୍ତୁତ ବୈଶିଷ୍ଟ୍ୟ ସମୂହ",
       subtitle:
         "ଜନକବଚ କୌଣସି ଅବାସ୍ତବ ଦାବି କରେ ନାହିଁ। ଏଠାରେ ଉଲ୍ଲେଖ ଥିବା ପ୍ରତ୍ୟେକ ବୈଶିଷ୍ଟ୍ୟ ଆମର କୋଡ୍ ଏବଂ ୩୮୧ଟି ସ୍ୱୟଂଚାଳିତ ପରୀକ୍ଷାରେ ଯାଞ୍ଚ କରାଯାଇଛି।",
-      implementedTitle: "ସଂସ୍କରଣ v1.0.9 ରେ ଉପଲବ୍ଧ ସୁବିଧା",
+      implementedTitle: "ସଂସ୍କରଣ v1.0.10 ରେ ଉପଲବ୍ଧ ସୁବିଧା",
       roadmapTitle: "ସ୍ପଷ୍ଟ ସୀମା: କ’ଣ କାର୍ଯ୍ୟକ୍ଷମ ନୁହେଁ",
       items: [
         {
@@ -787,7 +787,7 @@ export const translations: Record<Language, TranslationDictionary> = {
           level: "L2 — SMS ଫଲବ୍ୟାକ୍ (ଭବିଷ୍ୟତ ଯୋଜନା)",
           condition: "ମୋବାଇଲ୍ ଡାଟା ନାହିଁ, କେବଳ ସେଲ୍ୟୁଲାର୍ ରେଡିଓ",
           channel: "ଭବିଷ୍ୟତ କଳ୍ପନା — କାର୍ଯ୍ୟକ୍ଷମ ନୁହେଁ",
-          experience: "ଭବିଷ୍ୟତ ପାଇଁ ଏକ ପରିକଳ୍ପିତ SMS ଫର୍ମାଟ୍; v1.0.9 ରେ ଏହା କାର୍ଯ୍ୟକ୍ଷମ ନୁହେଁ।",
+          experience: "ଭବିଷ୍ୟତ ପାଇଁ ଏକ ପରିକଳ୍ପିତ SMS ଫର୍ମାଟ୍; v1.0.10 ରେ ଏହା କାର୍ଯ୍ୟକ୍ଷମ ନୁହେଁ।",
           isRoadmap: true,
         },
         {
@@ -809,8 +809,8 @@ export const translations: Record<Language, TranslationDictionary> = {
       tag: "ଆପ୍ ଚିତ୍ର",
       title: "ପ୍ରକୃତ ମୋବାଇଲ୍ ଆପ୍ଲିକେସନ୍ ପ୍ରଦର୍ଶନ",
       subtitle:
-        "ଆଣ୍ଡ୍ରଏଡ୍ ଫୋନରେ ଚାଲୁଥିବା ଜନକବଚ v1.0.9 ର ବାସ୍ତବ ସ୍କ୍ରିନସଟ୍। ଗୋପନୀୟତା ପାଇଁ ସଠିକ୍ ଅବସ୍ଥାନ ନିର୍ଦ୍ଦେଶାଙ୍କ ଘୋଡ଼ାଇ ଦିଆଯାଇଛି (Redacted)।",
-      realAppNotice: "ପ୍ରକୃତ ଆଣ୍ଡ୍ରଏଡ୍ ଆପ୍ଲିକେସନ୍ ସ୍କ୍ରିନସଟ୍ • ବିଲ୍ଡ ୧୨ (ଗବେଷଣା ବିଟା)",
+        "ଆଣ୍ଡ୍ରଏଡ୍ ଫୋନରେ ଚାଲୁଥିବା ଜନକବଚ v1.0.10 ର ବାସ୍ତବ ସ୍କ୍ରିନସଟ୍। ଗୋପନୀୟତା ପାଇଁ ସଠିକ୍ ଅବସ୍ଥାନ ନିର୍ଦ୍ଦେଶାଙ୍କ ଘୋଡ଼ାଇ ଦିଆଯାଇଛି (Redacted)।",
+      realAppNotice: "ପ୍ରକୃତ ଆଣ୍ଡ୍ରଏଡ୍ ଆପ୍ଲିକେସନ୍ ସ୍କ୍ରିନସଟ୍ • ବିଲ୍ଡ ୧୩ (ଗବେଷଣା ବିଟା)",
       items: [
         {
           id: "home-weather",
@@ -893,8 +893,8 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: "ଆଣ୍ଡ୍ରଏଡ୍ ପାଇଁ ଜନକବଚ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
       subtitle:
         "ଗବେଷଣା ବିଟା ଚ୍ୟାନେଲ୍ ପାଇଁ ଯାଞ୍ଚ ହୋଇଥିବା RSA 4096-bit କ୍ରିପ୍ଟୋଗ୍ରାଫିକ୍ କିଷ୍ଟୋର ଦ୍ୱାରା ସ୍ୱାକ୍ଷରିତ ଆଣ୍ଡ୍ରଏଡ୍ APK।",
-      version: "1.0.9",
-      build: "12",
+      version: "1.0.10",
+      build: "13",
       size: "୬୫.୫ MB",
       minAndroid: "ଆଣ୍ଡ୍ରଏଡ୍ ୭.୦ (Nougat, API ୨୪)",
       targetSdk: "ଆଣ୍ଡ୍ରଏଡ୍ ୧୬ (API ୩୬)",
@@ -903,17 +903,17 @@ export const translations: Record<Language, TranslationDictionary> = {
       checksumLabel: "SHA-256 ଚେକସମ୍",
       copyChecksum: "ଚେକସମ୍ କପି କରନ୍ତୁ",
       copied: "କ୍ଲିପବୋର୍ଡକୁ କପି ହୋଇଛି",
-      downloadBtn: "ଗବେଷଣା ବିଟା APK ଡାଉନଲୋଡ୍ (v1.0.9)",
+      downloadBtn: "ଗବେଷଣା ବିଟା APK ଡାଉନଲୋଡ୍ (v1.0.10)",
       unconfiguredBtn: "ଗବେଷଣା ବିଟା — ସୀମିତ ପ୍ରବେଶ",
       unconfiguredDesc:
-        "ଡାଟାସେଟ୍ ପୁନଃବଣ୍ଟନ ଅନୁମତି ସ୍ପଷ୍ଟ ନହେବା ପର୍ଯ୍ୟନ୍ତ ଅସୀମିତ APK ଡାଉନଲୋଡ୍ ବନ୍ଦ ରହିଛି। ଅନୁମୋଦିତ ପରୀକ୍ଷକମାନେ github.com/shavedXpixel/JanaKavach-Releases/releases/tag/v1.0.9 ଦେଖିପାରିବେ।",
+        "ଡାଟାସେଟ୍ ପୁନଃବଣ୍ଟନ ଅନୁମତି ସ୍ପଷ୍ଟ ନହେବା ପର୍ଯ୍ୟନ୍ତ ଅସୀମିତ APK ଡାଉନଲୋଡ୍ ବନ୍ଦ ରହିଛି। ଅନୁମୋଦିତ ପରୀକ୍ଷକମାନେ github.com/shavedXpixel/JanaKavach-Releases/releases/tag/v1.0.10 ଦେଖିପାରିବେ।",
       releaseNotesLink: "ବିସ୍ତୃତ ରିଲିଜ୍ ବିବରଣୀ ଦେଖନ୍ତୁ",
       scanQr: "ମୋବାଇଲରେ ଖୋଲିବାକୁ ସ୍କାନ୍ କରନ୍ତୁ",
       qrDescription: "ଆପଣଙ୍କ ଫୋନ୍ କ୍ୟାମେରା ବା କ୍ୟୁଆର୍ ସ୍କାନର୍ ମାଧ୍ୟମରେ ଏହି କୋଡ୍ ସ୍କାନ୍ କରି ସିଧାସଳଖ ଡାଉନଲୋଡ୍ ପେଜ୍ ଖୋଲନ୍ତୁ।",
       qrUnconfigured: "NEXT_PUBLIC_SITE_URL ସେଟ୍ ହେଲେ QR କୋଡ୍ ଉପଲବ୍ଧ ହେବ।",
       pilotTesterNoticeTitle: "ଗବେଷଣା ବିଟା ପ୍ରବେଶ ସୂଚନା",
       pilotTesterNoticeDesc:
-        "ଜନକବଚ v1.0.9 GitHub Releases (github.com/shavedXpixel/JanaKavach-Releases/releases) ରେ Research Beta ଚ୍ୟାନେଲ୍ ମାଧ୍ୟମରେ ଉପଲବ୍ଧ। ଡାଟାସେଟ୍ ପୁନଃବଣ୍ଟନ ଅନୁମତି ନମିଳିବା ପର୍ଯ୍ୟନ୍ତ ସର୍ବସାଧାରଣ ଡାଉନଲୋଡ୍ ସୀମିତ ରହିଛି।",
+        "ଜନକବଚ v1.0.10 GitHub Releases (github.com/shavedXpixel/JanaKavach-Releases/releases) ରେ Research Beta ଚ୍ୟାନେଲ୍ ମାଧ୍ୟମରେ ଉପଲବ୍ଧ। ଡାଟାସେଟ୍ ପୁନଃବଣ୍ଟନ ଅନୁମତି ନମିଳିବା ପର୍ଯ୍ୟନ୍ତ ସର୍ବସାଧାରଣ ଡାଉନଲୋଡ୍ ସୀମିତ ରହିଛି।",
       downloadDisclaimer:
         "ଗବେଷଣା ଦାୟିତ୍ୱମୁକ୍ତି: ଜନକବଚ ଏକ ସ୍ୱତନ୍ତ୍ର ଛାତ୍ର ଗବେଷଣା ପ୍ରକଳ୍ପ, କୌଣସି ସରକାରୀ ଜରୁରୀକାଳୀନ ପ୍ରତିକ୍ରିୟା ସେବା ନୁହେଁ। ଜରୁରୀକାଳୀନ ଦାଖଲ ସରକାରୀ ଉଦ୍ଧାରକାରୀଙ୍କ ଦ୍ୱାରା ତଦାରଖ ହୁଏ ନାହିଁ। ପ୍ରକୃତ ଜରୁରୀ ସ୍ଥିତିରେ ୧୧୨ ଡାଏଲ୍ କରନ୍ତୁ। ଆଶ୍ରୟସ୍ଥଳୀ ଅବସ୍ଥାନ ଆନୁମାନିକ ହୋଇପାରେ ଏବଂ ସ୍ୱତନ୍ତ୍ର ଯାଞ୍ଚ ଆବଶ୍ୟକ।",
     },
@@ -926,7 +926,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         {
           number: "୦୧",
           title: "APK ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
-          desc: "ଉପରେ ଥିବା ଡାଉନଲୋଡ୍ ବଟନ୍ କ୍ଲିକ୍ କରି 'JanaKavach-v1.0.9.apk' ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ।",
+          desc: "ଉପରେ ଥିବା ଡାଉନଲୋଡ୍ ବଟନ୍ କ୍ଲିକ୍ କରି 'JanaKavach-v1.0.10.apk' ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ।",
         },
         {
           number: "୦୨",
@@ -1014,7 +1014,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         officerPortal: "ପ୍ରଶାସକ କକପିଟ୍",
         privacy: "ଗୋପନୀୟତା ନୀତି",
         disclaimer: "ପାଇଲଟ୍ ଦାୟିତ୍ୱମୁକ୍ତି",
-        releaseNotes: "ରିଲିଜ୍ ବିବରଣୀ v1.0.9",
+        releaseNotes: "ରିଲିଜ୍ ବିବରଣୀ v1.0.10",
       },
       allRightsReserved: "ଜନକବଚ ଗବେଷଣା ପ୍ରୋଟୋଟାଇପ୍ • ମୁକ୍ତ ଉତ୍ସ ଓ ନାଗରିକ ସୁରକ୍ଷା",
     },

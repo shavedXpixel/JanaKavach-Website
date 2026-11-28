@@ -55,7 +55,7 @@ export function RolesSection() {
                 href="#download"
                 className="inline-flex items-center gap-2 text-xs font-bold text-[#8B3028] hover:underline"
               >
-                <span>Download Citizen APK (v1.0.9)</span>
+                <span>Download Citizen APK (v1.0.10)</span>
                 <span>→</span>
               </a>
             </div>

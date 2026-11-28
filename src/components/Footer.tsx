@@ -88,7 +88,7 @@ export function Footer() {
                 >
                   <span>{t.footer.links.download}</span>
                   <span className="text-[10px] bg-[#8B3028] text-white px-1.5 py-0.2 rounded font-mono">
-                    v1.0.9
+                    v1.0.10
                   </span>
                 </Link>
               </li>

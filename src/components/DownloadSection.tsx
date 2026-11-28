@@ -30,7 +30,7 @@ export function DownloadSection() {
   const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
 
   const sha256Checksum =
-    "95977A29F269BE082D61A30DD33EB4F3B4E5465B7E2B0565DF49FCF8603055AD";
+    "8B69D5317D5F3942ED0C713D4CC325EBCEF4B7B4C7AF9554D99452DF6F1D2503";
 
   // Generate QR Code ONLY from the configured deployment URL or verified window origin
   useEffect(() => {
@@ -94,7 +94,7 @@ export function DownloadSection() {
                 </span>
               </div>
               <p className="text-xs text-[#718096] mt-1 font-mono">
-                Filename: JanaKavach-v1.0.9.apk ({t.download.size})
+                Filename: JanaKavach-v1.0.10.apk ({t.download.size})
               </p>
             </div>
 
@@ -103,7 +103,7 @@ export function DownloadSection() {
               {apkUrl ? (
                 <a
                   href={apkUrl}
-                  download="JanaKavach-v1.0.9.apk"
+                  download="JanaKavach-v1.0.10.apk"
                   className="w-full md:w-auto inline-flex items-center justify-center gap-2.5 bg-[#8B3028] hover:bg-[#6E221B] text-[#F7F1E5] font-semibold text-sm px-6 py-3.5 rounded-xl transition-all shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8B3028]"
                 >
                   <Download className="w-4 h-4" aria-hidden="true" />
